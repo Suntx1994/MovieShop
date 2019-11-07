@@ -11,5 +11,8 @@ namespace MovieShop.Entity
 
         public string Name { get; set; }
 
+        public ICollection<MovieGenre> MovieGenres { get; set; }
+
+
     }
 }

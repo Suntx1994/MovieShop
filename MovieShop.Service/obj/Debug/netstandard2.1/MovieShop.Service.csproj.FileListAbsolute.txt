@@ -1,0 +1,13 @@
+C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.Service\bin\Debug\netstandard2.1\MovieShop.Service.deps.json
+C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.Service\bin\Debug\netstandard2.1\MovieShop.Service.dll
+C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.Service\bin\Debug\netstandard2.1\MovieShop.Service.pdb
+C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.Service\bin\Debug\netstandard2.1\MovieShop.Data.dll
+C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.Service\bin\Debug\netstandard2.1\MovieShop.Entity.dll
+C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.Service\bin\Debug\netstandard2.1\MovieShop.Data.pdb
+C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.Service\bin\Debug\netstandard2.1\MovieShop.Entity.pdb
+C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.Service\obj\Debug\netstandard2.1\MovieShop.Service.csprojAssemblyReference.cache
+C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.Service\obj\Debug\netstandard2.1\MovieShop.Service.AssemblyInfoInputs.cache
+C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.Service\obj\Debug\netstandard2.1\MovieShop.Service.AssemblyInfo.cs
+C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.Service\obj\Debug\netstandard2.1\MovieShop.Service.csproj.CopyComplete
+C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.Service\obj\Debug\netstandard2.1\MovieShop.Service.dll
+C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.Service\obj\Debug\netstandard2.1\MovieShop.Service.pdb

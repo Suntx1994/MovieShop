@@ -113,4 +113,7 @@ C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.API\bin\Debug\netcoreap
 C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.API\bin\Debug\netcoreapp3.0\MovieShop.Data.pdb
 C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.API\bin\Debug\netcoreapp3.0\MovieShop.Entity.pdb
 C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.API\bin\Debug\netcoreapp3.0\MovieShop.Service.pdb
+C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.API\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.API\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.API\bin\Debug\netcoreapp3.0\Newtonsoft.Json.Bson.dll
 C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.API\obj\Debug\netcoreapp3.0\MovieShop.API.MvcApplicationPartsAssemblyInfo.cache

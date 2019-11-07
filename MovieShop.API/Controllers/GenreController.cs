@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MovieShop.Service;
 
 namespace MovieShop.API.Controllers
 {
@@ -14,19 +15,30 @@ namespace MovieShop.API.Controllers
     //controllerbase do not have view, MVC uses :Controller
     public class GenreController : ControllerBase
     {
+        private readonly IGenreService _genreService;
+        public GenreController(IGenreService genreService)
+        {
+            this._genreService = genreService; 
+        }
 
         [HttpGet]
         [Route("")]
-        public IActionResult GetAllGenres()
+        public async Task<IActionResult> GetAllGenres()
         {
-            int a = 1; int b = 0;
-            int c = a / b;
-            var genres = new[]
-                 {
-                     new {Id = 1, Name = "Action"},
-                     new {Id = 2, Name = "Comedy"},
-                     new {Id = 2, Name = "Thriller"} };
-            return Ok(genres);
+            var genres = await _genreService.GetAllGenres();
+            if (genres.Any())
+            {
+                return Ok(genres);
+            }
+            return NotFound();
+        }
+
+        [HttpGet]
+        [Route("{id}/movies")]
+        public async Task<IActionResult> GetMoviesByGenre(int id)
+        {
+            var movies = await _genreService.GetMovieByGenre(id);
+            return Ok(movies);
         }
     }
 }

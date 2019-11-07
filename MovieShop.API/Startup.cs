@@ -11,11 +11,20 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using MovieShop.Data;
+using MovieShop.Service;
+using Newtonsoft.Json;
+using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
+using Newtonsoft.Json.Serialization;
 
 namespace MovieShop.API
 {
+
+    
     public class Startup
     {
+        // Sets the policy name to "_myAllowSpecificOrigins". The policy name is arbitrary.
+        private readonly string _myAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -27,7 +36,10 @@ namespace MovieShop.API
         //binding and dependency injection go here
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson(options => {
+                options.SerializerSettings.ReferenceLoopHandling
+    = ReferenceLoopHandling.Ignore;
+            });
             //.net core has built-in dependency injection.
 
             services.AddDbContext<MovieShopDbcontext>(options =>
@@ -35,6 +47,23 @@ namespace MovieShop.API
                 options.UseSqlServer(Configuration.GetConnectionString("MovieShopDbConnection"));
 
             });
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy(_myAllowSpecificOrigins,
+                                  builder =>
+                                  {
+                                      builder.WithOrigins("http://localhost:4200").AllowAnyHeader().AllowAnyMethod();
+                                  });
+            });
+
+            //singleton is bad, using per request
+            services.AddScoped<IGenreRepository, GenreRepository>();
+            services.AddScoped<IGenreService, GenreService>();
+            services.AddScoped<IMovieRepository, MovieRepository>();
+            services.AddScoped<IMovieService, MovieService>();
+            
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,12 +84,22 @@ namespace MovieShop.API
                 
             }
 
+            //app.UseCors(x => x
+            //    .AllowAnyOrigin()
+            //    .AllowAnyMethod()
+            //    .AllowAnyHeader()
+            //    .AllowCredentials()
+            //);
+
+            app.UseCors(_myAllowSpecificOrigins);
+
             app.UseRouting();
 
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
+
                 endpoints.MapControllers();
             });
         }
