@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tianx\\source\\repos\\Core\\MovieShop.API\\MovieShop.Entity\\MovieShop.Entity.csproj": {}
+    "C:\\Users\\tianx\\source\\repos\\MovieShop.api\\MovieShop.Entity\\MovieShop.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tianx\\source\\repos\\Core\\MovieShop.API\\MovieShop.Entity\\MovieShop.Entity.csproj": {
+    "C:\\Users\\tianx\\source\\repos\\MovieShop.api\\MovieShop.Entity\\MovieShop.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tianx\\source\\repos\\Core\\MovieShop.API\\MovieShop.Entity\\MovieShop.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\tianx\\source\\repos\\MovieShop.api\\MovieShop.Entity\\MovieShop.Entity.csproj",
         "projectName": "MovieShop.Entity",
-        "projectPath": "C:\\Users\\tianx\\source\\repos\\Core\\MovieShop.API\\MovieShop.Entity\\MovieShop.Entity.csproj",
+        "projectPath": "C:\\Users\\tianx\\source\\repos\\MovieShop.api\\MovieShop.Entity\\MovieShop.Entity.csproj",
         "packagesPath": "C:\\Users\\tianx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tianx\\source\\repos\\Core\\MovieShop.API\\MovieShop.Entity\\obj\\",
+        "outputPath": "C:\\Users\\tianx\\source\\repos\\MovieShop.api\\MovieShop.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

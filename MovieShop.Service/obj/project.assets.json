@@ -6763,11 +6763,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tianx\\source\\repos\\Core\\MovieShop.API\\MovieShop.Service\\MovieShop.Service.csproj",
+      "projectUniqueName": "C:\\Users\\tianx\\source\\repos\\MovieShop.api\\MovieShop.Service\\MovieShop.Service.csproj",
       "projectName": "MovieShop.Service",
-      "projectPath": "C:\\Users\\tianx\\source\\repos\\Core\\MovieShop.API\\MovieShop.Service\\MovieShop.Service.csproj",
+      "projectPath": "C:\\Users\\tianx\\source\\repos\\MovieShop.api\\MovieShop.Service\\MovieShop.Service.csproj",
       "packagesPath": "C:\\Users\\tianx\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tianx\\source\\repos\\Core\\MovieShop.API\\MovieShop.Service\\obj\\",
+      "outputPath": "C:\\Users\\tianx\\source\\repos\\MovieShop.api\\MovieShop.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6786,11 +6786,11 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\tianx\\source\\repos\\Core\\MovieShop.API\\MovieShop.data\\MovieShop.Data.csproj": {
-              "projectPath": "C:\\Users\\tianx\\source\\repos\\Core\\MovieShop.API\\MovieShop.data\\MovieShop.Data.csproj"
+            "C:\\Users\\tianx\\source\\repos\\MovieShop.api\\MovieShop.data\\MovieShop.Data.csproj": {
+              "projectPath": "C:\\Users\\tianx\\source\\repos\\MovieShop.api\\MovieShop.data\\MovieShop.Data.csproj"
             },
-            "C:\\Users\\tianx\\source\\repos\\Core\\MovieShop.API\\MovieShop.Entity\\MovieShop.Entity.csproj": {
-              "projectPath": "C:\\Users\\tianx\\source\\repos\\Core\\MovieShop.API\\MovieShop.Entity\\MovieShop.Entity.csproj"
+            "C:\\Users\\tianx\\source\\repos\\MovieShop.api\\MovieShop.Entity\\MovieShop.Entity.csproj": {
+              "projectPath": "C:\\Users\\tianx\\source\\repos\\MovieShop.api\\MovieShop.Entity\\MovieShop.Entity.csproj"
             }
           }
         }

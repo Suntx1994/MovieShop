@@ -8502,11 +8502,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tianx\\source\\repos\\Core\\MovieShop.API\\MovieShop.API\\MovieShop.API.csproj",
+      "projectUniqueName": "C:\\Users\\tianx\\source\\repos\\MovieShop.api\\MovieShop.API\\MovieShop.API.csproj",
       "projectName": "MovieShop.API",
-      "projectPath": "C:\\Users\\tianx\\source\\repos\\Core\\MovieShop.API\\MovieShop.API\\MovieShop.API.csproj",
+      "projectPath": "C:\\Users\\tianx\\source\\repos\\MovieShop.api\\MovieShop.API\\MovieShop.API.csproj",
       "packagesPath": "C:\\Users\\tianx\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tianx\\source\\repos\\Core\\MovieShop.API\\MovieShop.API\\obj\\",
+      "outputPath": "C:\\Users\\tianx\\source\\repos\\MovieShop.api\\MovieShop.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8525,14 +8525,14 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\tianx\\source\\repos\\Core\\MovieShop.API\\MovieShop.data\\MovieShop.Data.csproj": {
-              "projectPath": "C:\\Users\\tianx\\source\\repos\\Core\\MovieShop.API\\MovieShop.data\\MovieShop.Data.csproj"
+            "C:\\Users\\tianx\\source\\repos\\MovieShop.api\\MovieShop.data\\MovieShop.Data.csproj": {
+              "projectPath": "C:\\Users\\tianx\\source\\repos\\MovieShop.api\\MovieShop.data\\MovieShop.Data.csproj"
             },
-            "C:\\Users\\tianx\\source\\repos\\Core\\MovieShop.API\\MovieShop.Entity\\MovieShop.Entity.csproj": {
-              "projectPath": "C:\\Users\\tianx\\source\\repos\\Core\\MovieShop.API\\MovieShop.Entity\\MovieShop.Entity.csproj"
+            "C:\\Users\\tianx\\source\\repos\\MovieShop.api\\MovieShop.Entity\\MovieShop.Entity.csproj": {
+              "projectPath": "C:\\Users\\tianx\\source\\repos\\MovieShop.api\\MovieShop.Entity\\MovieShop.Entity.csproj"
             },
-            "C:\\Users\\tianx\\source\\repos\\Core\\MovieShop.API\\MovieShop.Service\\MovieShop.Service.csproj": {
-              "projectPath": "C:\\Users\\tianx\\source\\repos\\Core\\MovieShop.API\\MovieShop.Service\\MovieShop.Service.csproj"
+            "C:\\Users\\tianx\\source\\repos\\MovieShop.api\\MovieShop.Service\\MovieShop.Service.csproj": {
+              "projectPath": "C:\\Users\\tianx\\source\\repos\\MovieShop.api\\MovieShop.Service\\MovieShop.Service.csproj"
             }
           }
         }
