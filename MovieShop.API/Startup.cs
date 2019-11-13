@@ -15,6 +15,9 @@ using MovieShop.Service;
 using Newtonsoft.Json;
 using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 using Newtonsoft.Json.Serialization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace MovieShop.API
 {
@@ -57,13 +60,30 @@ namespace MovieShop.API
                                   });
             });
 
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = false,
+                        ValidateAudience = false,
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey =
+                            new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["TokenSettings:PrivateKey"]))
+                    };
+                });
+
             //singleton is bad, using per request
             services.AddScoped<IGenreRepository, GenreRepository>();
             services.AddScoped<IGenreService, GenreService>();
             services.AddScoped<IMovieRepository, MovieRepository>();
             services.AddScoped<IMovieService, MovieService>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<ICryptoService, CryptoService>();
             
-            
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -95,7 +115,9 @@ namespace MovieShop.API
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            app.UseAuthentication(); //add both of them for authenticate the token
+
+            app.UseAuthorization(); //add for authorization
 
             app.UseEndpoints(endpoints =>
             {
