@@ -6,3 +6,11 @@ C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.Entity\obj\Debug\netsta
 C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.Entity\obj\Debug\netstandard2.1\MovieShop.Entity.AssemblyInfo.cs
 C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.Entity\obj\Debug\netstandard2.1\MovieShop.Entity.dll
 C:\Users\tianx\source\repos\Core\MovieShop.API\MovieShop.Entity\obj\Debug\netstandard2.1\MovieShop.Entity.pdb
+C:\Users\tianx\source\repos\MovieShop.api\MovieShop.Entity\bin\Debug\netstandard2.1\MovieShop.Entity.deps.json
+C:\Users\tianx\source\repos\MovieShop.api\MovieShop.Entity\bin\Debug\netstandard2.1\MovieShop.Entity.dll
+C:\Users\tianx\source\repos\MovieShop.api\MovieShop.Entity\bin\Debug\netstandard2.1\MovieShop.Entity.pdb
+C:\Users\tianx\source\repos\MovieShop.api\MovieShop.Entity\obj\Debug\netstandard2.1\MovieShop.Entity.csprojAssemblyReference.cache
+C:\Users\tianx\source\repos\MovieShop.api\MovieShop.Entity\obj\Debug\netstandard2.1\MovieShop.Entity.AssemblyInfoInputs.cache
+C:\Users\tianx\source\repos\MovieShop.api\MovieShop.Entity\obj\Debug\netstandard2.1\MovieShop.Entity.AssemblyInfo.cs
+C:\Users\tianx\source\repos\MovieShop.api\MovieShop.Entity\obj\Debug\netstandard2.1\MovieShop.Entity.dll
+C:\Users\tianx\source\repos\MovieShop.api\MovieShop.Entity\obj\Debug\netstandard2.1\MovieShop.Entity.pdb
